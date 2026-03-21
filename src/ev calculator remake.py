@@ -27,3 +27,4 @@ class DataPoint:
             raise ValueError("Number of trades must be a positive integer")
         else:
             pass
+        
