@@ -27,4 +27,11 @@ class DataPoint:
             raise ValueError("Number of trades must be a positive integer")
         else:
             pass
-        
+
+@property
+def loss_rate(self) -> float:
+    return float("inf") if self.win_amount == 0 else self.loss_amount / self.win_amount
+
+@property
+def get_loss_rate(self) -> float:
+    return 1 - self.win_rate
