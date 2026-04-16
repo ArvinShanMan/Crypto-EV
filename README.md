@@ -144,8 +144,3 @@ Here’s a **general step‑by‑step checklist** for your Crypto EV Simulator. 
 - [ ] Port performance‑critical parts to **Numba** or **Cython** (or eventually to Java / Rust).
 
 ---
-
-### 🧠 Pro tips for maintenance
-- Keep each environment module in its own file – easy to add or remove.
-- Use `pydantic` or `dataclasses` for configuration schemas – catches input errors early.
-- Tag your releases (v0.1.0, v0.2.0) so you can experiment without breaking the stable core.
